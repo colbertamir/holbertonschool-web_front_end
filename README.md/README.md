@@ -1,3 +1,0 @@
-Advanced Html
-
-Amir Colbert
