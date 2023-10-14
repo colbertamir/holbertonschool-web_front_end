@@ -13,26 +13,26 @@
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
-    --font-weight-regular: 400;
-    --font-weight-bold: 700;
+    --font-weight-regular: 400; /* Custom property for regular font weight */
+    --font-weight-bold: 700; /* Custom property for bold font weight */
   }
   
   html {
     scroll-behavior: smooth;
-    font-size: 62.5%; /* 62.5% of the normal size (10px) for easier rem calculations */
+    font-size: 62.5%; /* 62.5% of the normal size */
   }
   
   body, a {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-regular); /* Set font weight to regular */
+    font-weight: var(--font-weight-regular); /* Set font weight regular */
   }
   
   .section-heading-1, .section-heading-2, .section-heading-3, .section-heading-4, .section-heading-5, .section-heading-6 {
     font-family: var(--font-family-title);
     font-size: var(--font-size-large);
-    font-weight: var(--font-weight-bold); /* Set font weight to bold */
+    font-weight: var(--font-weight-bold); /* Set font weight bold */
   }
   
   .visually-hidden {
