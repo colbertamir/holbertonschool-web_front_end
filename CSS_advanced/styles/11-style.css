@@ -1,4 +1,4 @@
-/* Section tagline additions */
+/* Add more styles to the section tagline */
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -55,13 +55,9 @@
     text-align: var(--section-header-align);
   }
   
-  .card-category {
+  .card-category, .section-tagline {
     color: var(--color-primary);
-  }
-  
-  .section-tagline {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
     text-transform: var(--section-tagline-transform);
   }
- 
