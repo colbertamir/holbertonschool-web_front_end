@@ -91,6 +91,7 @@ a:active {
 }
 
 .container { 
-    max-width: 960px;
-    margin: auto;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
 }
