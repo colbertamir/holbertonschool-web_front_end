@@ -30,6 +30,7 @@
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
+    
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
@@ -132,11 +133,9 @@ nav .nav-item { /* Nav item creation */
     margin: var(--nav-item-margin);
 }
 
-nav .nav-link {
+nav .nav-link { /*Added pading and a block to nav-link */
     display: block;
-    padding: calc(var(--root-element) / 2) var(--root-element);
-    color: var(--text-color); /* Set the default text color */
-    transition: color 0.3s; /* Add a smooth color transition effect */
+    padding: calc(var(--root-element) / 2) var(--root-element); 
 }
 
 nav .nav-link:hover { /* Changes foreground color while hovering */
