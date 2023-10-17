@@ -117,28 +117,6 @@ a:active {
     padding: var(--footer-padding);
 }
 
-nav {
-    margin: 0;
-    padding: 0;
-    list-style: none; /* To remove the list styling */
-    text-align: center; /* To center align the text */
-}
-
 .navbar-menu {
     float: right; /* Navbar float right */
-}
-
-nav .nav-item {
-    font-family: var(--nav-item-font-family);
-    font-weight: var(--nav-item-font-weight);
-    font-size: var(--nav-item-font-size);
-    letter-spacing: var(--nav-item-letter-spacing);
-    display: var(--nav-item-display);
-    margin: var(--nav-item-margin);
-}
-
-nav .nav-link:hover {
-    display: block;
-    padding: calc(var(--root-element) / 2) var(--root-element);
-    color: var(--nav-item-link-hover); /* Changes foreground color while hovering */
 }
