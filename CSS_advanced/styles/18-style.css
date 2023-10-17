@@ -2,6 +2,7 @@
 /*# sourceMappingURL=normalize.min.css.map */
 /* Custom nav bar */
 :root {
+    /* Colors and typography properties */
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
@@ -20,6 +21,8 @@
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+
+    /* Section properties */
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
@@ -30,7 +33,8 @@
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
-    
+
+    /* Navbar properties */
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
@@ -113,8 +117,8 @@ a:active {
     padding: var(--footer-padding);
 }
 
-.navbar-menu { /* Navbar float right */
-    float: right;
+.navbar-menu {
+    float: right; /* Navbar float right */
 }
 
 nav {
@@ -124,7 +128,7 @@ nav {
     text-align: center; /* To center align the text */
 }
 
-nav .nav-item { /* Nav item creation */
+nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -133,11 +137,11 @@ nav .nav-item { /* Nav item creation */
     margin: var(--nav-item-margin);
 }
 
-nav .nav-link { /*Added pading and a block to nav-link */
+nav .nav-link {
     display: block;
-    padding: calc(var(--root-element) / 2) var(--root-element); 
+    padding: calc(var(--root-element) / 2) var(--root-element);
 }
 
-nav .nav-link:hover { /* Changes foreground color while hovering */
-    color: var(--nav-item-link-hover);
+nav .nav-link:hover {
+    color: var(--nav-item-link-hover); /* Changes foreground color while hovering */
 }
