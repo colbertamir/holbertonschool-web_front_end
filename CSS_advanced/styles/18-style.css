@@ -112,22 +112,18 @@ a:active {
     padding: var(--footer-padding);
 }
 
-.navbar-menu {
+.navbar-menu { /* Navbar float right */
     float: right;
 }
 
 nav {
     margin: 0;
     padding: 0;
+    list-style: none; /* To remove the list styling */
+    text-align: center; /* To center align the text */
 }
 
-nav ul {
-    list-style: none;
-    text-align: center;
-}
-
-/* Add these styles for the nav-item class */
-nav .nav-item {
+nav .nav-item { /* Nav item creation */
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -136,13 +132,13 @@ nav .nav-item {
     margin: var(--nav-item-margin);
 }
 
-/* Add these styles for the nav-link class */
 nav .nav-link {
     display: block;
-    padding: var(--root-element) 0 var(--root-element);
+    padding: calc(var(--root-element) / 2) var(--root-element);
+    color: var(--text-color); /* Set the default text color */
+    transition: color 0.3s; /* Add a smooth color transition effect */
 }
 
-/* Add this style for nav-link class when hovering */
-nav .nav-link:hover {
+nav .nav-link:hover { /* Changes foreground color while hovering */
     color: var(--nav-item-link-hover);
 }
