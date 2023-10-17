@@ -89,8 +89,3 @@ a:active {
     font-weight: var(--font-weight-bold);
     text-transform: var(--section-tagline-transform);
 }
-
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-}
