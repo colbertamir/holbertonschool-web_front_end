@@ -121,7 +121,7 @@ a:active {
     float: right; /* Navbar float right */
 }
 
-nav {
+.nav {
     margin: 0;
     padding: 0;
     list-style: none; /* To remove the list styling */
@@ -139,9 +139,8 @@ nav {
 
 .nav .nav-link {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: calc(var(--root-element) / 2) var(--root-element);
 }
-
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
