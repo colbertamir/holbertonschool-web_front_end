@@ -139,7 +139,7 @@ a:active {
 
 .nav .nav-link {
     display: block;
-    padding: calc(var(--root-element) / 2) var(--root-element);
+    padding: 0.5rem 1rem;
 }
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
